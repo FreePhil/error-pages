@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>網站維護中｜頁面範例</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { max-width: 1240px; margin: auto; padding: 32px 24px; background: #f3f5f8; color: #243246; font: 16px/1.6 system-ui, sans-serif; }
+    h1 { line-height: 1.2; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr)); gap: 24px; }
+    article { overflow: hidden; background: white; border: 1px solid #d4dce6; border-radius: 12px; }
+    h2 { margin: 0; padding: 16px 20px; font-size: 18px; }
+    a { color: #21599b; text-underline-offset: 4px; }
+    iframe { display: block; width: 100%; height: 460px; border: 0; border-top: 1px solid #d4dce6; }
+  </style>
+</head>
+<body>
+  <h1>網站維護中｜頁面範例</h1>
+  <p>五款獨立 HTML 頁面，點選任一款式即可查看完整頁面。</p>
+  <div class="grid">
+    <article><h2><a href="01-minimal.html">01 · 簡約風格</a></h2><iframe src="01-minimal.html" title="簡約風格維護頁面" loading="lazy"></iframe></article>
+    <article><h2><a href="02-dark.html">02 · 深色風格</a></h2><iframe src="02-dark.html" title="深色風格維護頁面" loading="lazy"></iframe></article>
+    <article><h2><a href="03-friendly.html">03 · 親切風格</a></h2><iframe src="03-friendly.html" title="親切風格維護頁面" loading="lazy"></iframe></article>
+    <article><h2><a href="04-professional.html">04 · 專業風格</a></h2><iframe src="04-professional.html" title="專業風格維護頁面" loading="lazy"></iframe></article>
+    <article><h2><a href="05-colorful.html">05 · 繽紛風格</a></h2><iframe src="05-colorful.html" title="繽紛風格維護頁面" loading="lazy"></iframe></article>
+  </div>
+</body>
+</html>
